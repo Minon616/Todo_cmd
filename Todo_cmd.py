@@ -36,6 +36,7 @@ def display_list():
 def exit_programme():
     print('Exitting...')
     exit()
+    #End code
 
 
 while True:
@@ -57,7 +58,6 @@ while True:
         exit_programme()
     else:
         print('Invalid input:')                
-
 
 
 
