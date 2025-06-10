@@ -8,7 +8,7 @@ class TodoList:
 
     def remove_task(self, index):
         self.display_list()
-        index -= 1  # Convert to 0-based index
+        #index -= 1  # Convert to 0-based index
         if 0 <= index < len(self.tasks):
             removed = self.tasks.pop(index)
             print(f'\n{removed} Removed successfully')
